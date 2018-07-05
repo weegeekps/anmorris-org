@@ -40,3 +40,59 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+
+.site-header {
+    text-align: center;
+    border-bottom: thin solid $black;
+    margin: {
+        bottom: 1rem;
+    }
+
+    h1 {
+        margin: {
+            bottom: 0;
+        }
+    }
+
+    a {
+        color: $black;
+
+        &:hover {
+            color: $black;
+        }
+
+        &:active {
+            color: $black;
+        }
+    }
+}
+
+.sections {
+    ul {
+        list-style: none;
+    }
+}
+
+.quote {
+    margin: {
+        left: 2rem;
+        bottom: 1rem;
+    }
+
+    p {
+        margin: {
+            bottom: 0;
+        }
+    }
+
+    &-body {
+        font-size: 1.2rem;
+        font-style: italic;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}

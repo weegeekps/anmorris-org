@@ -1,4 +1,4 @@
 baseURL = "http://anmorris.org/"
 languageCode = "en-us"
 title = "anmorris.org"
-theme = "ananke"
+theme = "anmorris"

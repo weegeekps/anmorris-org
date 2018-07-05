@@ -7,7 +7,7 @@ licenselink = "https://gitlab.com/weegeekps/anmorris-org-hugo/blob/master/LICENS
 description = ""
 homepage = "https://anmorris.org/"
 tags = []
-features = []
+features = ["posts"]
 min_version = "0.41"
 
 [author]
