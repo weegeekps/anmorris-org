@@ -1,4 +1,4 @@
 ---
-title: "Resumé"
+title: "Resume"
 ---
 
