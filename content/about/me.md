@@ -22,7 +22,7 @@ around with modding video games and creating websites. This led me ultimately to
 and even today a predominant amount of software I write is for the web.
 
 Professionally, I currently write web software, but I've written software for desktops and mobile phones including Virtual
-Reality applications. Personally, I almost always have [several projects currently in flight.](/projects). Typcially, my
+Reality applications. Personally, I almost always have [several projects currently in flight](/projects). Typcially, my
 personal projects are started due to me wanting to learn a new technology, solve a problem that I have or just want to
 solve, or just because I think it'll be fun. Fun projects for me include toying with VR/AR & CV tech, writing raycasters,
 and learning how to develop for classic systems like the [Commodore 64](http://oldcomputers.net/c64.html).

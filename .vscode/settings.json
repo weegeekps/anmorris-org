@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "*.html": "handlebars"
+        "*.html": "gohtml"
+    },
+    "emmet.includeLanguages": {
+        "gohtml": "html"
     }
 }
