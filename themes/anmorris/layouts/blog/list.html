@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="grid-x">
+    <div class="small-12 cell">
+        <h1>{{ .Title }}</h1>
+    </div>
+    {{ if .Content }}
+    <div class="small-12 cell">
+        {{- .Content -}}
+    </div>
+    {{ end }}
+    <div class="small-12 cell">
+        <ul>
+            {{ range .Data.Pages }}
+            <li>
+                <a href="{{ .URL }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</article>
+{{ end }}

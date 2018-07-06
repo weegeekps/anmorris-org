@@ -2,6 +2,9 @@
 <article class="grid-x">
     <div class="small-12 cell">
         <h1>{{- .Title -}}</h1>
+        <time datetime="{{ .Date }}">
+            {{- .Date.Format "January 2, 2006" -}}
+        </time>
     </div>
     <div class="small-12 cell">
         {{- .Content -}}

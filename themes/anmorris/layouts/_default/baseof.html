@@ -15,11 +15,11 @@
 </head>
 
 <body>
-<div class="grid-container">
+<div class="grid-container content">
     {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
     {{ block "main" . }}{{ end }}
-    {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
 </div>
+{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
 <style>
   @import url("https://use.typekit.net/ksw5jqs.css");
 </style>
