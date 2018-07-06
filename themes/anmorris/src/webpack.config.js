@@ -1,4 +1,5 @@
 const AssetsPlugin = require('assets-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 
@@ -114,5 +115,8 @@ module.exports = ({ production } = {}) => ({
         new ExtractTextPlugin({
             filename: '[name].[contenthash].css',
         }),
+        new CleanWebpackPlugin([
+            path.join(__dirname, './../static/dist'),
+        ]),
     ],
 });
