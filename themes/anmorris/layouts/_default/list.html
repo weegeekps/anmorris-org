@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="grid-x">
     <div class="small-12 cell">
-        <h1>{{ .Title }}</h1>
+        <h2>{{ .Title }}</h2>
     </div>
     {{ if .Content }}
     <div class="small-12 cell">
@@ -12,7 +12,7 @@
         <ul>
             {{ range .Data.Pages }}
             <li>
-                <a href="{{ .URL }}">{{ .Title }}</a>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </li>
             {{ end }}
         </ul>

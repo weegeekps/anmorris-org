@@ -8,12 +8,12 @@
         <ul>
             {{ range sort .Site.Sections "Dir" }}
             <li>
-                <a href="{{ .Permalink }}">{{ .Dir }}</a> &mdash; {{ .Summary }}
+                <a href="{{ .RelPermalink }}">{{ .Dir }}</a> &mdash; {{ .Summary }}
                 {{ if .Params.showPages }}
                     {{ range .Pages }}
                     <ul>
                         <li>
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                         </li>
                     </ul>
                     {{ end }}
@@ -22,7 +22,7 @@
                     {{ range last 1 .Pages }}
                     <ul>
                         <li>
-                            Latest Post: <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            Latest Post: <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                         </li>
                     </ul>
                     {{ end }}
