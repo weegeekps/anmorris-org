@@ -117,6 +117,8 @@ module.exports = ({ production } = {}) => ({
         }),
         new CleanWebpackPlugin([
             path.join(__dirname, './../static/dist'),
-        ]),
+        ], {
+            root: path.join(__dirname, './../'),
+        }),
     ],
 });

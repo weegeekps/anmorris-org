@@ -1,11 +1,13 @@
 {{ define "main" }}
-<div class="grid-x">
+<div class="grid-x grid-padding-x">
     <div class="small-12 cell">
         <h2>{{ .Title }}</h2>
+    </div>
+    <div class="small-12 medium-6 cell">
         {{- .Content -}}
     </div>
-    <div class="small-12 cell sections">
-        <ul>
+    <div class="small-12 medium-6 cell sections">
+        <ul class="sections-list">
             {{ range sort .Site.Sections "Dir" }}
             <li>
                 <a href="{{ .RelPermalink }}">{{ .Dir }}</a> &mdash; {{ .Summary }}

@@ -2700,6 +2700,9 @@ footer {
 .sections ul {
   list-style: none; }
 
+.sections-list {
+  margin-right: 0; }
+
 .quote {
   margin-left: 2rem;
   margin-bottom: 1rem; }
@@ -2709,4 +2712,4 @@ footer {
     font-size: 1.2rem;
     font-style: italic; }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuNzU5YTcwMDMxZmMxMzhmNmUyZjlhZTM3ZDkwOWY1MTQuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuNmI4ZjZiZGVkM2JmNjRlMmE5ZjE2YjQ0ZDkwMDJhODYuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
