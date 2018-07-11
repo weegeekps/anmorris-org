@@ -2654,6 +2654,104 @@ ul.no-bullet, ol.no-bullet {
     color: #cacaca;
     cursor: not-allowed; }
 
+.callout {
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid rgba(10, 10, 10, 0.25);
+  border-radius: 0;
+  background-color: #fdfdfd;
+  color: #0a0a0a; }
+  .callout > :first-child {
+    margin-top: 0; }
+  .callout > :last-child {
+    margin-bottom: 0; }
+  .callout.primary {
+    background-color: #cbe5ff;
+    color: #0a0a0a; }
+  .callout.secondary {
+    background-color: #eaeaea;
+    color: #0a0a0a; }
+  .callout.success {
+    background-color: #e1faea;
+    color: #0a0a0a; }
+  .callout.warning {
+    background-color: #fff3d9;
+    color: #0a0a0a; }
+  .callout.alert {
+    background-color: #f7e4e1;
+    color: #0a0a0a; }
+  .callout.small {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem; }
+  .callout.large {
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem; }
+
+.pagination {
+  margin-left: 0;
+  margin-bottom: 1rem; }
+  .pagination::before, .pagination::after {
+    display: table;
+    content: ' ';
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  .pagination::after {
+    clear: both; }
+  .pagination li {
+    margin-right: 0.0625rem;
+    border-radius: 0;
+    font-size: 0.875rem;
+    display: none; }
+    .pagination li:last-child, .pagination li:first-child {
+      display: inline-block; }
+    @media print, screen and (min-width: 40em) {
+      .pagination li {
+        display: inline-block; } }
+  .pagination a,
+  .pagination button {
+    display: block;
+    padding: 0.1875rem 0.625rem;
+    border-radius: 0;
+    color: #0a0a0a; }
+    .pagination a:hover,
+    .pagination button:hover {
+      background: #e6e6e6; }
+  .pagination .current {
+    padding: 0.1875rem 0.625rem;
+    background: #0050A0;
+    color: #F0F0F0;
+    cursor: default; }
+  .pagination .disabled {
+    padding: 0.1875rem 0.625rem;
+    color: #cacaca;
+    cursor: not-allowed; }
+    .pagination .disabled:hover {
+      background: transparent; }
+  .pagination .ellipsis::after {
+    padding: 0.1875rem 0.625rem;
+    content: '\2026';
+    color: #0a0a0a; }
+
+.pagination-previous a::before,
+.pagination-previous.disabled::before {
+  display: inline-block;
+  margin-right: 0.5rem;
+  content: '\AB'; }
+
+.pagination-next a::after,
+.pagination-next.disabled::after {
+  display: inline-block;
+  margin-left: 0.5rem;
+  content: '\BB'; }
+
 html, body {
   height: 100%; }
 
@@ -2672,6 +2770,39 @@ footer {
   font-style: italic;
   -ms-flex-negative: 0;
       flex-shrink: 0; }
+
+.blog-list {
+  margin-top: 1rem;
+  margin-left: 1.5rem; }
+  .blog-list-header {
+    line-height: 1;
+    margin: 0; }
+  .blog-list-sub-header {
+    font-size: 0.8rem;
+    margin-bottom: 1rem; }
+    .blog-list-sub-header-date {
+      font-style: italic;
+      margin-bottom: 0; }
+    .blog-list-sub-header-tags {
+      margin: 0.2rem 0;
+      padding: 0; }
+      .blog-list-sub-header-tags li {
+        display: inline-block;
+        margin: 0;
+        padding: 0; }
+      .blog-list-sub-header-tags-link {
+        border-radius: 3px;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        background-color: #cacaca; }
+        .blog-list-sub-header-tags-link:hover {
+          color: #F0F0F0;
+          background-color: #0050A0; }
+
+.blog-paginator {
+  text-align: center; }
 
 .content {
   -webkit-box-flex: 1;
@@ -2710,4 +2841,4 @@ footer {
     font-size: 1.2rem;
     font-style: italic; }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuZGU3YjBmNWE3NTYyYWI4YmVmMTUxNmVlMGE5NzdhNjYuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuNDVmMmFiMDc2YmNmZjM5MDJkMmE0OWExZThlM2FiOGMuY3NzIiwic291cmNlUm9vdCI6IiJ9*/

@@ -1,13 +1,14 @@
 ---
-title: "My First Post"
-date: 2018-06-20T15:42:27-05:00
+title: "My Third Post"
+date: 2018-06-22T15:42:27-05:00
 author: 
     given_name: Adam
     family_name: Morris
     display_name: Adam Morris
 tags:
 - test
-- programming
+- news
+- personal
 draft: false
 ---
 

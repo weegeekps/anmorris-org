@@ -10,13 +10,25 @@
     </div>
     {{ end }}
     <div class="small-12 cell">
-        <ul>
-            {{ range .Data.Pages }}
-            <li>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
+        <h3>Latest Post</h3>
+        <div class="blog-list">
+            {{ range first 1 .Data.Pages }}
+            {{ partial "blog-list-entry.html" . }}
+            <p>
+                {{- .Summary -}} <a href="{{ .RelPermalink }}">&nbsp;(read more...)</a>
+            </p>
             {{ end }}
-        </ul>
+        </div>
+    </div>
+    <div class="small-12 cell">
+        <h3>Previous Posts</h3>
+        {{ $paginator := .Paginate (after 1 .Data.Pages) 30 }}
+        <div class="blog-list">
+            {{ range $paginator.Pages }}
+            {{ partial "blog-list-entry.html" . }}
+            {{ end }}
+        </div>
+        {{ partial "blog-paginator.html" . }}
     </div>
 </article>
 {{ end }}

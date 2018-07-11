@@ -1,0 +1,15 @@
+<h4 class="blog-list-header">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</h4>
+<div class="blog-list-sub-header">
+    <p class="blog-list-sub-header-date">
+        {{- .Date -}}
+    </p>
+    <ul class="blog-list-sub-header-tags">
+        {{ range .Params.tags }}
+        <li>
+            <a class="blog-list-sub-header-tags-link" href="{{ "/tags/" }}{{ . | urlize }}">{{ . }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
