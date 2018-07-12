@@ -1,6 +1,6 @@
 ---
 title: "My Second Post"
-date: 2018-06-21T15:42:27-05:00
+date: 2018-06-21T10:22:12-05:00
 author: 
     given_name: Adam
     family_name: Morris

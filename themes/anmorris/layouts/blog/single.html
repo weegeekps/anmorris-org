@@ -2,10 +2,13 @@
 <article class="grid-x">
     {{ partial "breadcrumb.html" . }}
     <div class="small-12 cell">
-        <h2>{{- .Title -}}</h2>
-        <time datetime="{{ .Date }}">
-            {{- .Date.Format "January 2, 2006" -}}
-        </time>
+        <h2 class="blog-post-header">{{- .Title -}}</h2>
+        <div class="blog-post-sub-header">
+            <time datetime="{{ .Date }}">
+                {{- .Date.Format "January 2, 2006 @ 15:04:05" -}}
+            </time>
+            {{ partial "blog-tags.html" . }}
+        </div>
     </div>
     <div class="small-12 cell">
         {{- .Content -}}

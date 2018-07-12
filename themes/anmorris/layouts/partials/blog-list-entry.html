@@ -3,7 +3,7 @@
 </h4>
 <div class="blog-list-sub-header">
     <p class="blog-list-sub-header-date">
-        {{- .Date -}}
+        {{- .Date.Format "January 2, 2006 @ 15:04:05" -}}
     </p>
     {{ partial "blog-tags.html" . }}
 </div>

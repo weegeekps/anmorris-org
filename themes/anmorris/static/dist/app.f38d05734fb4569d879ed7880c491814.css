@@ -2784,6 +2784,19 @@ footer {
       font-style: italic;
       margin-bottom: 0; }
 
+.blog-post-header {
+  line-height: 1.2;
+  margin: 0; }
+
+.blog-post-sub-header {
+  margin-bottom: 1rem; }
+  .blog-post-sub-header time {
+    font-size: 0.8rem;
+    font-style: italic; }
+    @media print, screen and (min-width: 40em) {
+      .blog-post-sub-header time {
+        font-size: 0.9rem; } }
+
 .blog-tags {
   font-size: 0.8rem;
   margin: 0.2rem 0;
@@ -2843,4 +2856,4 @@ footer {
     font-size: 1.2rem;
     font-style: italic; }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuNTg2Y2U1NTNkZWQ2NmMzYTZiMjYyMDM4ZGI5NTI3MzguY3NzIiwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuZjM4ZDA1NzM0ZmI0NTY5ZDg3OWVkNzg4MGM0OTE4MTQuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
