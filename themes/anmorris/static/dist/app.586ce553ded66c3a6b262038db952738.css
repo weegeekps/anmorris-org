@@ -2783,23 +2783,25 @@ footer {
     .blog-list-sub-header-date {
       font-style: italic;
       margin-bottom: 0; }
-    .blog-list-sub-header-tags {
-      margin: 0.2rem 0;
-      padding: 0; }
-      .blog-list-sub-header-tags li {
-        display: inline-block;
-        margin: 0;
-        padding: 0; }
-      .blog-list-sub-header-tags-link {
-        border-radius: 3px;
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
-        padding-left: 0.3rem;
-        padding-right: 0.3rem;
-        background-color: #cacaca; }
-        .blog-list-sub-header-tags-link:hover {
-          color: #F0F0F0;
-          background-color: #0050A0; }
+
+.blog-tags {
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+  padding: 0; }
+  .blog-tags li {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  .blog-tags-link {
+    border-radius: 3px;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    background-color: #cacaca; }
+    .blog-tags-link:hover {
+      color: #F0F0F0;
+      background-color: #0050A0; }
 
 .blog-paginator {
   text-align: center; }
@@ -2841,4 +2843,4 @@ footer {
     font-size: 1.2rem;
     font-style: italic; }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuNDVmMmFiMDc2YmNmZjM5MDJkMmE0OWExZThlM2FiOGMuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuNTg2Y2U1NTNkZWQ2NmMzYTZiMjYyMDM4ZGI5NTI3MzguY3NzIiwic291cmNlUm9vdCI6IiJ9*/

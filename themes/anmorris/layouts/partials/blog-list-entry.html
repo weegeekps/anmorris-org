@@ -5,11 +5,5 @@
     <p class="blog-list-sub-header-date">
         {{- .Date -}}
     </p>
-    <ul class="blog-list-sub-header-tags">
-        {{ range .Params.tags }}
-        <li>
-            <a class="blog-list-sub-header-tags-link" href="{{ "/tags/" }}{{ . | urlize }}">{{ . }}</a>
-        </li>
-        {{ end }}
-    </ul>
+    {{ partial "blog-tags.html" . }}
 </div>
