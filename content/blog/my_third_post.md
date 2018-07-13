@@ -9,7 +9,7 @@ tags:
 - test
 - news
 - personal
-draft: false
+draft: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit vitae lectus viverra facilisis. Aliquam erat volutpat. Proin at quam iaculis, fermentum ipsum eget, ullamcorper orci. Nulla nec dui id ex dignissim congue id pretium metus. Duis a gravida dolor. Nulla mollis elit nulla, lacinia fringilla mi rhoncus sed. Nam eu quam vitae libero congue euismod. Morbi tempor et ex vitae ornare. Vestibulum iaculis in enim quis condimentum. Proin et cursus dolor, nec varius turpis.

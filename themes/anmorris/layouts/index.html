@@ -21,7 +21,7 @@
                     {{ end }}
                 {{ end }}
                 {{ if .Params.showLatest }}
-                    {{ range last 1 .Pages }}
+                    {{ range first 1 .Pages }}
                     <ul>
                         <li>
                             Latest Post: <a href="{{ .RelPermalink }}">{{ .Title }}</a>
