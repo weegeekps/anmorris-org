@@ -6,10 +6,21 @@
     <description>Recent content in Welcome on anmorris.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jul 2018 22:28:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jul 2018 13:58:00 -0400</lastBuildDate>
     
 	<atom:link href="http://anmorris.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New Beginnings</title>
+      <link>http://anmorris.org/blog/new_beginnings/</link>
+      <pubDate>Fri, 13 Jul 2018 13:58:00 -0400</pubDate>
+      
+      <guid>http://anmorris.org/blog/new_beginnings/</guid>
+      <description>Welcome to my new personal website. This is mostly a site so I can post my personal projects, blog a little about them and other things, and have a presence that I have control over (unlike Facebook/Twitter/etc.) on the internet.
+I&amp;rsquo;ll be posting more in a couple days, including the progress on this site. I still need to finish:
+ RSS Export Add current Projects Add past Projects Add more Social Networking information.</description>
+    </item>
     
     <item>
       <title>About this Site</title>
@@ -19,15 +30,6 @@
       <guid>http://anmorris.org/about/site/</guid>
       <description>Every project we work on tends to be a learning experience. Sometimes we learn new technologies, sometimes we learn things about ourselves, and sometimes we learn life lessons. This project that led to the creation of this website fit into the life lessons category.
 It&amp;rsquo;s taken 3 years, working on and off, for this simple website to take shape. If that sounds insane, you&amp;rsquo;re absolutely right, it is. In actuality, this is probably the 4th or 5th iteration of the site.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://anmorris.org/blog/my_first_post/</link>
-      <pubDate>Wed, 20 Jun 2018 15:42:27 -0500</pubDate>
-      
-      <guid>http://anmorris.org/blog/my_first_post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit vitae lectus viverra facilisis. Aliquam erat volutpat. Proin at quam iaculis, fermentum ipsum eget, ullamcorper orci. Nulla nec dui id ex dignissim congue id pretium metus. Duis a gravida dolor. Nulla mollis elit nulla, lacinia fringilla mi rhoncus sed. Nam eu quam vitae libero congue euismod. Morbi tempor et ex vitae ornare. Vestibulum iaculis in enim quis condimentum. Proin et cursus dolor, nec varius turpis.</description>
     </item>
     
     <item>
@@ -45,15 +47,6 @@ It&amp;rsquo;s taken 3 years, working on and off, for this simple website to tak
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://anmorris.org/social/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>http://anmorris.org/about/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://anmorris.org/about/resume/</guid>
       <description></description>
     </item>
     

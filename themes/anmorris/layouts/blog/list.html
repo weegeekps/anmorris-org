@@ -20,6 +20,7 @@
             {{ end }}
         </div>
     </div>
+    {{ if gt (len .Data.Pages) 1 }}
     <div class="small-12 cell">
         <h3>Previous Posts</h3>
         {{ $paginator := .Paginate (after 1 .Data.Pages) 30 }}
@@ -30,5 +31,6 @@
         </div>
         {{ partial "blog-paginator.html" . }}
     </div>
+    {{ end }}
 </article>
 {{ end }}

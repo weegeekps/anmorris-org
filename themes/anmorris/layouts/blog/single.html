@@ -5,7 +5,7 @@
         <h2 class="blog-post-header">{{- .Title -}}</h2>
         <div class="blog-post-sub-header">
             <time datetime="{{ .Date }}">
-                {{- .Date.Format "January 2, 2006 @ 15:04:05" -}}
+                {{- .Date.Format "January 2, 2006 @ 15:04" -}}
             </time>
             {{ partial "blog-tags.html" . }}
         </div>
