@@ -1,7 +1,9 @@
 {{ define "main" }}
-<article class="grid-x">
+<article class="grid-x blog-container">
     {{ partial "breadcrumb.html" . }}
-    <div class="small-12 cell">
+    <div class="small-12 medium-9 large-6 cell">
+        <div class="grid-x">
+            <div class="small-12 cell">
         <h2 class="blog-post-header">{{- .Title -}}</h2>
         <div class="blog-post-sub-header">
             <time datetime="{{ .Date }}">
@@ -9,9 +11,11 @@
             </time>
             {{ partial "blog-tags.html" . }}
         </div>
-    </div>
-    <div class="small-12 cell">
-        {{- .Content -}}
+        </div>
+            <div class="small-12 cell">
+                {{- .Content -}}
+            </div>
+        </div>
     </div>
 </article>
 {{ end }}

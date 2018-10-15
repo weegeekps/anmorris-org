@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on anmorris.org</title>
-    <link>http://anmorris.org/blog/</link>
-    <description>Recent content in Blog on anmorris.org</description>
+    <title>Game Reviews on anmorris.org</title>
+    <link>http://anmorris.org/tags/game-reviews/</link>
+    <description>Recent content in Game Reviews on anmorris.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Oct 2018 20:19:00 -0500</lastBuildDate>
     
-	<atom:link href="http://anmorris.org/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://anmorris.org/tags/game-reviews/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>http://anmorris.org/blog/a_brief_review_of_bo4/</guid>
       <description>I don&amp;rsquo;t intend to use this blog solely for game reviews, but since I have a few people interested in my thoughts on the new Call of Duty: Black Ops 4 I will put my thoughts here because it honestly will be easier to write here than on my phone or in chat. As an aside, I have two other new posts in progress but one involves a project I&amp;rsquo;m not ready to reveal yet, and another is regarding some personal research I&amp;rsquo;ve been doing on Programming Language Expressiveness &amp;amp; Safety.</description>
-    </item>
-    
-    <item>
-      <title>New Beginnings</title>
-      <link>http://anmorris.org/blog/new_beginnings/</link>
-      <pubDate>Fri, 13 Jul 2018 13:58:00 -0400</pubDate>
-      
-      <guid>http://anmorris.org/blog/new_beginnings/</guid>
-      <description>Welcome to my new personal website. This is mostly a site so I can post my personal projects, blog a little about them and other things, and have a presence that I have control over (unlike Facebook/Twitter/etc.) on the internet.
-I&amp;rsquo;ll be posting more in a couple days, including the progress on this site. I still need to finish:
- RSS Export Add current Projects Add past Projects Add more Social Networking information.</description>
     </item>
     
   </channel>

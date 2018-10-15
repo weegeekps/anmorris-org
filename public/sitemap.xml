@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://anmorris.org/blog/a_brief_review_of_bo4/</loc>
+    <lastmod>2018-10-14T20:19:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://anmorris.org/blog/new_beginnings/</loc>
     <lastmod>2018-07-13T13:58:00-04:00</lastmod>
   </url>
@@ -23,7 +28,7 @@
   
   <url>
     <loc>http://anmorris.org/blog/</loc>
-    <lastmod>2018-07-13T13:58:00-04:00</lastmod>
+    <lastmod>2018-10-14T20:19:00-05:00</lastmod>
   </url>
   
   <url>
@@ -33,6 +38,18 @@
   
   <url>
     <loc>http://anmorris.org/social/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://anmorris.org/tags/game-reviews/</loc>
+    <lastmod>2018-10-14T20:19:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://anmorris.org/tags/gaming/</loc>
+    <lastmod>2018-10-14T20:19:00-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -57,7 +74,7 @@
   
   <url>
     <loc>http://anmorris.org/tags/</loc>
-    <lastmod>2018-07-13T13:58:00-04:00</lastmod>
+    <lastmod>2018-10-14T20:19:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -67,7 +84,7 @@
   
   <url>
     <loc>http://anmorris.org/</loc>
-    <lastmod>2018-07-13T13:58:00-04:00</lastmod>
+    <lastmod>2018-10-14T20:19:00-05:00</lastmod>
   </url>
   
 </urlset>

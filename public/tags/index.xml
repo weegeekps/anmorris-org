@@ -6,10 +6,28 @@
     <description>Recent content in Tags on anmorris.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jul 2018 13:58:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 Oct 2018 20:19:00 -0500</lastBuildDate>
     
 	<atom:link href="http://anmorris.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Game Reviews</title>
+      <link>http://anmorris.org/tags/game-reviews/</link>
+      <pubDate>Sun, 14 Oct 2018 20:19:00 -0500</pubDate>
+      
+      <guid>http://anmorris.org/tags/game-reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaming</title>
+      <link>http://anmorris.org/tags/gaming/</link>
+      <pubDate>Sun, 14 Oct 2018 20:19:00 -0500</pubDate>
+      
+      <guid>http://anmorris.org/tags/gaming/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>News</title>
