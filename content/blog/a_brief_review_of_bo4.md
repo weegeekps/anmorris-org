@@ -19,8 +19,6 @@ The beta for Black Ops 4 was unexpectedly fun. My first impressions were certain
 
 For this review however, I am going to focus solely on the main multiplayer portion of the game and the absence of a singleplayer mode. Part of this is that I haven't had much time to play Blackout or Zombies as I've been focused heavily on the multiplayer because, to put it simply, it's pretty damn good.
 
-![Pretty Damn Good](https://tenor.com/tXKE.gif)
-
 ## Eschewing singleplayer was the right choice
 
 Getting rid of singleplayer has been a controversial move. The Call of Duty games, and the Black Ops games in particular, have had fantastic storylines that have truly driven the franchise. Even if you're not into the multiplayer mode, often the story has been enough to warrant the purchase, especially with the Black Ops games.
