@@ -19,7 +19,7 @@ The beta for Black Ops 4 was unexpectedly fun. My first impressions were certain
 
 For this review however, I am going to focus solely on the main multiplayer portion of the game and the absence of a singleplayer mode. Part of this is that I haven't had much time to play Blackout or Zombies as I've been focused heavily on the multiplayer because, to put it simply, it's pretty damn good.
 
-![Pretty Damn Good](/static/memes/pretty-damn-good.gif)
+![Pretty Damn Good](https://tenor.com/tXKE.gif)
 
 ## Eschewing singleplayer was the right choice
 
