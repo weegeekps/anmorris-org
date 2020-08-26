@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on anmorris.org</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Charity</title>
+      <title>charity</title>
       <link>http://anmorris.org/tags/charity/</link>
       <pubDate>Mon, 15 Oct 2018 19:27:00 -0500</pubDate>
       
@@ -21,16 +21,7 @@
     </item>
     
     <item>
-      <title>Game Reviews</title>
-      <link>http://anmorris.org/tags/game-reviews/</link>
-      <pubDate>Sun, 14 Oct 2018 20:19:00 -0500</pubDate>
-      
-      <guid>http://anmorris.org/tags/game-reviews/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaming</title>
+      <title>gaming</title>
       <link>http://anmorris.org/tags/gaming/</link>
       <pubDate>Mon, 15 Oct 2018 19:27:00 -0500</pubDate>
       
@@ -39,7 +30,16 @@
     </item>
     
     <item>
-      <title>News</title>
+      <title>game reviews</title>
+      <link>http://anmorris.org/tags/game-reviews/</link>
+      <pubDate>Sun, 14 Oct 2018 20:19:00 -0500</pubDate>
+      
+      <guid>http://anmorris.org/tags/game-reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
       <link>http://anmorris.org/tags/news/</link>
       <pubDate>Fri, 13 Jul 2018 13:58:00 -0400</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>Personal</title>
+      <title>personal</title>
       <link>http://anmorris.org/tags/personal/</link>
       <pubDate>Fri, 13 Jul 2018 13:58:00 -0400</pubDate>
       

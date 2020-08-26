@@ -2,7 +2,7 @@
 <article class="grid-x">
     {{ partial "breadcrumb.html" . }}
     <div class="small-12 cell">
-        <h2>All posts tagged <em>{{- .Title -}}</em></h2>
+        <h2>All posts tagged <em>{{- .Title | title -}}</em></h2>
     </div>
     {{ if .Content }}
     <div class="small-12 cell">

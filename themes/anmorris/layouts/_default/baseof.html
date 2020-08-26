@@ -2,28 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
-    {{ $stylesheet := .Site.Data.webpack_assets.app }}
-    {{ with $stylesheet.css }}
-    <link rel="stylesheet" href="{{ relURL (printf "%s%s" "dist/" .) }}">
-    {{ end }}
-    {{/* TODO: Favicon */}}
-    {{/* TODO: RSS Feeds */}}
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ with .Params.Title }} | {{ . | title }}{{ end }}{{ end }}</title>
+  {{ $stylesheet := .Site.Data.webpack_assets.app }}
+  {{ with $stylesheet.css }}
+  <link rel="stylesheet" href="{{ relURL (printf "%s%s" "dist/" .) }}">
+  {{ end }}
+  {{/* TODO: Favicon */}}
+  {{/* TODO: RSS Feeds */}}
 </head>
 
 <body>
-<div class="grid-container content">
+  <div class="grid-container content">
     {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
     {{ block "main" . }}{{ end }}
-</div>
-{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
-<style>
-  @import url("https://use.typekit.net/ksw5jqs.css");
-</style>
-{{ block "scripts" . }}{{ partial "scripts.html" .}}{{ end }}
+  </div>
+  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+  <style>
+    @import url("https://use.typekit.net/ksw5jqs.css");
+  </style>
+  {{ block "scripts" . }}{{ partial "scripts.html" .}}{{ end }}
 </body>
 
 </html>

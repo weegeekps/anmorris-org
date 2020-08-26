@@ -8,26 +8,26 @@
     </div>
     <div class="small-12 medium-6 cell sections">
         <ul class="sections-list">
-            {{ range sort .Site.Sections "Dir" }}
+            {{ range sort .Site.Sections ".File.Dir" }}
             <li>
-                <a href="{{ .RelPermalink }}">{{ .Dir }}</a> &mdash; {{ .Summary }}
+                <a href="{{ .RelPermalink }}">{{ .File.Dir | path.Dir }}/</a> &mdash; {{ .Summary }}
                 {{ if .Params.showPages }}
-                    {{ range .Pages }}
-                    <ul>
-                        <li>
-                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                        </li>
-                    </ul>
-                    {{ end }}
+                {{ range .Pages }}
+                <ul>
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </li>
+                </ul>
+                {{ end }}
                 {{ end }}
                 {{ if .Params.showLatest }}
-                    {{ range first 1 .Pages }}
-                    <ul>
-                        <li>
-                            Latest Post: <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                        </li>
-                    </ul>
-                    {{ end }}
+                {{ range first 1 .Pages }}
+                <ul>
+                    <li>
+                        Latest Post: <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </li>
+                </ul>
+                {{ end }}
                 {{ end }}
             </li>
             {{ end }}

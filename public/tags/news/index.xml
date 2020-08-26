@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on anmorris.org</title>
+    <title>news on anmorris.org</title>
     <link>http://anmorris.org/tags/news/</link>
-    <description>Recent content in News on anmorris.org</description>
+    <description>Recent content in news on anmorris.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jul 2018 13:58:00 -0400</lastBuildDate>
