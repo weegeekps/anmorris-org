@@ -1,1 +1,8 @@
-{}
+{
+    "files.associations": {
+        "*.html": "html"
+    },
+    "emmet.includeLanguages": {
+        "gohtml": "html"
+    }
+}

@@ -1,4 +1,3 @@
-title = "anmorris.org"
 # The URL the site will be built for
 base_url = "https://anmorris.org"
 
@@ -14,4 +13,4 @@ build_search_index = true
 highlight_code = false
 
 [extra]
-author = "Adam N. Morris"
+# Put all your custom variables here
