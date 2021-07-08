@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- TODO: Description & Author Metadata -->
+  <title>
+    {% block title %}{{ config.title }}{% endblock title %}
+  </title>
+  <link rel="stylesheet" href="{{ get_url(path='site.css') }}" />
+  <!-- TODO: Favicon & RSS -->
+</head>
+
+<body>
+  <!-- TODO: Header -->
+  <div>{% block content %}{% endblock content %}</div>
+</body>
+
+</html>
