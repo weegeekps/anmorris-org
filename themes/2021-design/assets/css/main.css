@@ -1,17 +1,45 @@
+@import url("https://use.typekit.net/ksw5jqs.css");
+
+@import "footer.css";
+@import "header.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://use.typekit.net/qiu7jua.css");
-
 body {
-  font-family: source-sans-pro, sans-serif;
+  font-family: theme("fontFamily.body");
   font-weight: 400;
   font-style: normal;
+  color: theme("color.foreground");
+  background-color: theme("color.background");
+  min-height: 100vh;
 }
 
 h1 {
-  @apply text-5xl mt-12 mb-2;
+  @apply text-5xl mt-6 mb-2;
+}
+
+h2 {
+  @apply text-4xl mt-4 mb-2;
+}
+
+h3 {
+  @apply text-2xl mt-4 mb-2;
+}
+
+h4 {
+  @apply text-xl mt-2 mb-1;
+  font-weight: 500;
+}
+
+h5 {
+  @apply text-xl mt-2 mb-1;
+}
+
+h6 {
+  @apply text-lg mt-1 mb-1;
+  font-weight: 500;
 }
 
 h1,
@@ -20,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: proxima-nova-condensed, sans-serif;
-  font-weight: 800;
+  font-family: theme("fontFamily.header");
+  font-weight: 400;
   font-style: normal;
 }
