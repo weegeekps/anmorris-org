@@ -1,0 +1,9 @@
+<h4 class="mb-0 leading-none">
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</h4>
+<div class="mb-4">
+  <time class="italic text-sm" datetime="{{ .Date }}">
+    {{- .Date.Format "January 2, 2006 @ 15:04" -}}
+  </time>
+  {{ partial "blog-tags.html" . }}
+</div>

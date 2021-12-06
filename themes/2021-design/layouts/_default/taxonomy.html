@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="grid grid-cols-1">
+    {{ partial "breadcrumb.html" . }}
+    <div>
+      <h2>All posts tagged <em>{{- .Title | title -}}</em></h2>
+    </div>
+    {{ if .Content }}
+      <article>
+        {{- .Content -}}
+      </article>
+    {{ end }}
+    <div>
+      {{ $paginator := .Paginate .Pages 30 }}
+      <div class="blog-list">
+        {{ range $paginator.Pages }}
+          {{ partial "blog-list-entry.html" . }}
+        {{ end }}
+      </div>
+      {{ partial "blog-paginator.html" . }}
+    </div>
+  </div>
+{{ end }}
