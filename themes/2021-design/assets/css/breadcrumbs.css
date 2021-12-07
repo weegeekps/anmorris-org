@@ -1,0 +1,19 @@
+.breadcrumbs {
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: theme("fontSize.xs");
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.breadcrumbs li:after {
+  content: "/";
+  @apply ml-3 mr-3;
+  opacity: 0.2;
+}
+
+.breadcrumbs li:last-child:after {
+  content: "";
+}

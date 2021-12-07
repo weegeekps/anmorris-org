@@ -1,0 +1,13 @@
+<!-- DO NOT AUTOFORMAT THIS FILE. PRETTIER FUCKS IT UP. -->
+<div class="ml-8 mb-4">
+  <p class="text-xl italic">{{ .Get "quote" }}</p>
+  <p>
+    {{ if .Get "link" }}
+      <a href="{{ .Get "link" }}">
+    {{ end }}
+      &mdash;{{ .Get "author" }}
+    {{ if .Get "link" }}
+      </a>
+    {{ end }}
+  </p>
+</div>

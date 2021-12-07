@@ -1,5 +1,5 @@
 ---
-title: 'Welcome'
+title: "Welcome"
 ---
 
 {{<quote quote="Computer Science is no more about computers than astronomy is about telescopes." author="Edsger W. Dijkstra">}}

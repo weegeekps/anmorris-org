@@ -1,0 +1,15 @@
+{
+  "name": "anmorris-org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "prettier": "^2.5.0",
+    "prettier-plugin-go-template": "^0.0.11",
+    "tailwindcss": "^2.2.4"
+  }
+}

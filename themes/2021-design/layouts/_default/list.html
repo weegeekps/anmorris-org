@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="grid grid-cols-1">
+    {{ partial "breadcrumb.html" . }}
+    <div>
+      <h2>{{- .Title -}}</h2>
+    </div>
+    {{ if .Content }}
+      <article>
+        {{- .Content -}}
+      </article>
+    {{ end }}
+    <div>
+      <ul class="list-disc ml-6 mb-4">
+        {{ range .Data.Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}

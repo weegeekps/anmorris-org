@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  border-bottom: thin solid theme("color.foreground");
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a {
+  color: theme("color.foreground");
+}
+
+header h1 a:hover {
+  color: theme("color.foreground");
+}

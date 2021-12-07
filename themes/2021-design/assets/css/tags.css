@@ -1,0 +1,25 @@
+.tags {
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: theme("fontSize.xs");
+}
+
+.tags li {
+  display: inline-block;
+}
+
+.tags li:first-child:before {
+  content: "tags:";
+  @apply mr-2;
+  opacity: 0.5;
+}
+
+.tags li:after {
+  content: "|";
+  @apply ml-2 mr-2;
+  opacity: 0.5;
+}
+
+.tags li:last-child:after {
+  content: "";
+}
