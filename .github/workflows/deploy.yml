@@ -32,3 +32,12 @@ jobs:
         
       - name: Build
         run: hugo --minify
+
+      - name: Deploy
+        uses: burnette01/rsync-deployments@5.1
+          switches: -avzr
+          path: public/
+          remote_path: ${{ secrets.SSH_REMOTE_PATH }}
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_user: ${{ secrets.SSH_REMOTE_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
