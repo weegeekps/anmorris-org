@@ -34,7 +34,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: burnette01/rsync-deployments@5.1
+        uses: burnett01/rsync-deployments@5.1
         with:
           switches: -avzr
           path: public/
