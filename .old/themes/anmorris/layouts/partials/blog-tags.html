@@ -1,7 +1,0 @@
-<ul class="blog-tags">
-    {{ range .Params.tags }}
-    <li>
-        <a class="blog-tags-link" href="{{ "/tags/" }}{{ . | urlize }}">{{ . }}</a>
-    </li>
-    {{ end }}
-</ul>

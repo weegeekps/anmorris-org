@@ -1,6 +1,0 @@
-baseURL = "http://anmorris.org/"
-languageCode = "en-us"
-title = "anmorris.org"
-theme = "anmorris"
-pygmentsCodeFences = true
-pygmentsUseClasses = true
