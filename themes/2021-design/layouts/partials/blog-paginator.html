@@ -1,20 +1,20 @@
 <!-- TODO: I actually have to make a bunch of pages to test this. -->
 {{ $paginator := $.Paginator }}
 {{ if gt $paginator.TotalPages 1 }}
-  <nav class="blog-paginator" aria-label="Pagination">
-    <ul class="pagination">
+  <nav class="mt-4" aria-label="Pagination">
+    <ul class="paginator">
       {{ if $paginator.HasPrev }}
-        <li class="pagination-previous">
+        <li>
           {{ with $paginator.Prev }}
             <a href="{{ .URL }}">Previous</a>
           {{ end }}
         </li>
       {{ else }}
-        <li class="pagination-previous disabled">Previous</li>
+        <li>Previous</li>
       {{ end }}
       {{ range $paginator.Pagers }}
         {{ if eq . $paginator }}
-          <li class="current">
+          <li>
             {{ .PageNumber }}
           </li>
         {{ else }}
@@ -24,15 +24,13 @@
         {{ end }}
       {{ end }}
       {{ if $paginator.HasNext }}
-        <li class="pagination-next">
+        <li>
           {{ with $paginator.Next }}
             <a href="{{ .URL }}">Next</a>
           {{ end }}
         </li>
       {{ else }}
-        <li class="pagination-next disabled">
-          Next <span class="show-for-sr">page</span>
-        </li>
+        <li>Next</li>
       {{ end }}
     </ul>
   </nav>

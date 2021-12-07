@@ -4,6 +4,7 @@
 @import "header.css";
 @import "breadcrumbs.css";
 @import "tags.css";
+@import "paginator.css";
 
 @tailwind base;
 @tailwind components;

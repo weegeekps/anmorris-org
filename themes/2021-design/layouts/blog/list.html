@@ -21,9 +21,9 @@
       </div>
     </div>
     {{ if gt (len .Data.Pages) 1 }}
-    <div>
+    <div class="mt-4">
       <h3>Previous Posts</h3>
-      {{ $paginator := .Paginate (after 1 .Data.Pages) 30 }}
+      {{ $paginator := .Paginate (after 1 .Data.Pages) }}
       <div class="ml-6">
           {{ range $paginator.Pages }}
           {{ partial "blog-list-entry.html" . }}

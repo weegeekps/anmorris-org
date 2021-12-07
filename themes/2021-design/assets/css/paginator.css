@@ -1,0 +1,19 @@
+.paginator {
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: theme("fontSize.xs");
+}
+
+.paginator li {
+  display: inline-block;
+}
+
+.paginator li:after {
+  content: "|";
+  @apply ml-2 mr-2;
+  opacity: 0.5;
+}
+
+.paginator li:last-child:after {
+  content: "";
+}
