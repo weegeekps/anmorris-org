@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["layouts/**/*.html"],
+  purge: ["content/**/*.md", "layouts/**/*.html", "themes/2021-design/layouts/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     container: {

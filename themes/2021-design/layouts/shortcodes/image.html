@@ -1,8 +1,8 @@
-<div class="flex justify-center items-center">
-  <div>
+<div class="flex justify-center items-center m-5">
+  <div class="{{ .Get "class" }}">
     <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
     {{ if .Get "caption" }}
-      <p class="text-center italic">{{ .Get "caption" }}</p>
+      <p class="text-center italic mb-0">{{ .Get "caption" }}</p>
     {{ end }}
   </div>
 </div>

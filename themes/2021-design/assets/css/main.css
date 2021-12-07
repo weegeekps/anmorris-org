@@ -19,6 +19,7 @@ body {
   background-color: theme("color.background");
   min-height: 100vh;
   @apply leading-relaxed;
+  @apply pl-4 pr-4;
 }
 
 a {
