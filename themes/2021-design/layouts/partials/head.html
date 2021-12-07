@@ -10,3 +10,9 @@
 {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
 {{ end }}
+
+<script>
+  // Supposedly this will fix the FOUC with Firefox. Weird.
+  //   https://bugzilla.mozilla.org/show_bug.cgi?id=1404468
+  0
+</script>
