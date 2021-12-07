@@ -27,6 +27,8 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Build
+      - name: Install Node Packages
         run: yarn install
+        
+      - name: Build
         run: hugo --minify
