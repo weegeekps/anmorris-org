@@ -9,6 +9,8 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-20.04
+    env:
+      NODE_ENV: production
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
